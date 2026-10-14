@@ -4,7 +4,17 @@
 
 **Lập trình cho Khoa học dữ liệu (Programming for Data Science)** giúp người học xây dựng nền tảng lập trình và sử dụng các công cụ để giải quyết bài toán dữ liệu. Môn học kết nối kỹ năng viết chương trình với quy trình làm việc thực tế: đặt câu hỏi, thu thập dữ liệu, khám phá, tiền xử lý, phân tích và trình bày kết quả.
 
-Repository này được tạo để lưu trữ và tổ chức tài liệu, bài thực hành, bài tập và ghi chú cá nhân trong quá trình học môn học. Hiện tại, repository mới có README; nội dung thực hành sẽ được bổ sung trong quá trình học.
+Repository này lưu trữ tài liệu, bài thực hành và bài tập cá nhân trong quá trình học môn học.
+
+## Nội dung repository
+
+| Tệp / thư mục | Nội dung |
+| --- | --- |
+| [`lecture/`](lecture/) | Slide bài giảng và tài liệu đồ án cuối kỳ |
+| [`Data/`](Data/) | Dữ liệu CSV phục vụ bài thực hành |
+| [`Lab01.ipynb`](Lab01.ipynb) | Thực hành dòng lệnh Linux, Git và dữ liệu văn bản |
+| [`Homework2.ipynb`](Homework2.ipynb) | Thực hành quy trình khoa học dữ liệu bằng Python thuần |
+| [`linux_assignment.docx`](linux_assignment.docx) | Tài liệu bài tập Linux |
 
 ## Mục tiêu học tập
 
@@ -53,7 +63,7 @@ python -m pip install jupyterlab
 python -m jupyterlab
 ```
 
-Khi các notebook được bổ sung, mở tệp `.ipynb` tương ứng trong JupyterLab và chạy các ô theo thứ tự. Đọc hướng dẫn của từng bài để chuẩn bị dữ liệu và thư viện cần thiết.
+Mở tệp `.ipynb` tương ứng trong JupyterLab và chạy các ô theo thứ tự. Giữ nguyên vị trí thư mục `Data/` để các đường dẫn tương đối trong notebook hoạt động. Đọc hướng dẫn của từng bài để chuẩn bị dữ liệu và thư viện cần thiết.
 
 ## Cách sử dụng repository
 
